@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>ระบบฐานข้อมูลห้องพัก</title>
+  </head>
+ 
+      
+  <body>
+        
+<header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  bg-info border-bottom shadow-sm ">
+  <p class="h5 my-0 me-md-auto fw-normal"><b>ระบบฐานข้อมูลห้องพัก</p></b>
+  <nav class="my-2 my-md-0 me-md-3 ">
+   
+<nav class="nav">
+  <a class="nav-link " aria-current="page" href="index.html">หน้าหลัก</a>
+  
+  <a class="nav-link" href="showroom.php">แสดงข้อมูลห้องพัก</a>
+          <!-- <a class="nav-link" href="login.html">Login</a> -->
+      <span class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Login</span>
+      <!-- Button trigger modal -->
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+      </button> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">เข้าสู่ระบบ</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form action="chklogin.php" method="GET">
+                          <div class="row mb-3">
+                                  <label for="username" class="col-sm-2 text-capitalize">Username</label>
+                                  <div class="col-sm-6">
+                                      <input type="text" autocomplete="off" class="form-control" required name="username" id="username" value="" />
+                                  </div>
+                          </div>
+                          <div class="row mb-3">
+                              <label for="password" class="col-sm-2">Password</label>
+                              <div class="col-sm-6">
+                                  <input type="password" autocomplete="off" class="form-control" required name="password" id="password" value="" />
+                              </div>
+                          </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">reset</button>
+                      <button type="submit" class="btn btn-primary">Login</button>
+                  </div>
+              </div>
+              </form>
+          </div>
+      </div>
+   
+  </nav>
+  
+        
+    <body>
+  
+  </header>
+    </body>
+  
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/16.jpg" class="d-block w-200" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Untitled-3.jpg" class="d-block w-200" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="img/Untitled-4.jpg" class="d-block w-200" alt="...">
+          </div>
+            <div class="carousel-item">
+              <img src="img/88.jpg" class="d-block w-200" alt="...">
+            </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+  </div> 
+  </body>
+  </html>
